@@ -3,8 +3,8 @@
 <suite name="All Test Suite">
     <parameter name="username" value="chentt"/>
     <parameter name="password" value="Ctt5477."/>
-    <parameter name="agent" value="兰陨代理5"/>
-    <parameter name="shortName" value="蓝韵企业5"/>
+    <parameter name="agent" value="兰陨代理6"/>
+    <parameter name="shortName" value="蓝韵企业6"/>
     <parameter name="city" value="厦门市"/>
     <parameter name="carType" value="专车"/>
     <listeners>
@@ -141,20 +141,5 @@
 
         </classes>
     </test>
-    <!--<test verbose="2" preserve-order="true" name="firefoxTest">-->
-    <!--<parameter name="browser" value="firefox" />-->
-    <!--<classes>-->
-    <!--<class name="com.summersoft.ctt.yycx.po.LoginPo">-->
-    <!--<methods>-->
-    <!--<include name="userLogin"/>-->
-    <!--</methods>-->
-    <!--</class>-->
-    <!--<class name="com.summersoft.ctt.yycx.test.TestAll">-->
-    <!--<methods>-->
-    <!--<include name="clickMenu"></include>-->
-    <!--<exclude name="exportAll"></exclude>-->
-    <!--</methods>-->
-    <!--</class>-->
-    <!--</classes>-->
-    <!--</test>-->
+
 </suite>
