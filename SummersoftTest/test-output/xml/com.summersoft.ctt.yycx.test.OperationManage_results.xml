@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="E:/SummersoftTest"
+           tests="13"
+           failures="1"
+           errors="0"
+           skipped="12"
+           time="9.427">
+  <properties />
+            <testcase name="beforeClass" time="9.427" classname="com.summersoft.ctt.yycx.test.OperationManage">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="&lt;unknown&gt;: Failed to set the &apos;cookie&apos; property on &apos;Document&apos;: Cookies are disabled inside &apos;data:&apos; URLs.
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;EDZ-20171129AOU&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.27.440174 (e97a722caafc2d..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 56.0.2924.87, webStorageEnabled: true}
+Session ID: 2023c40007d353ee80a2e426ff76e68a"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: <unknown>: Failed to set the 'cookie' property on 'Document': Cookies are disabled inside 'data:' URLs.
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'EDZ-20171129AOU', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.27.440174 (e97a722caafc2d..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 56.0.2924.87, webStorageEnabled: true}
+Session ID: 2023c40007d353ee80a2e426ff76e68a
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+  org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+  org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+  org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.addCookie(RemoteWebDriver.java:675)
+  com.summersoft.ctt.yycx.test.OperationManage.beforeClass(OperationManage.java:1236)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+  org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:163)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.runSuites(TestNG.java:1028)
+  org.testng.TestNG.run(TestNG.java:996)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="beforeMethod" time="0.0" classname="com.summersoft.ctt.yycx.test.OperationManage">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="com.summersoft.ctt.yycx.test.OperationManage">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="com.summersoft.ctt.yycx.test.OperationManage">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="com.summersoft.ctt.yycx.test.OperationManage">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="com.summersoft.ctt.yycx.test.OperationManage">
+          <skipped />
+    </testcase>
+            <testcase name="beforeMethod" time="0.0" classname="com.summersoft.ctt.yycx.test.OperationManage">
+          <skipped />
+    </testcase>
+            <testcase name="driverMessage" time="0.0" classname="com.summersoft.ctt.yycx.test.OperationManage">
+          <skipped />
+    </testcase>
+            <testcase name="businessManager" time="0.0" classname="com.summersoft.ctt.yycx.test.OperationManage">
+          <skipped />
+    </testcase>
+            <testcase name="vehicleManager" time="0.0" classname="com.summersoft.ctt.yycx.test.OperationManage">
+          <skipped />
+    </testcase>
+            <testcase name="regionalManager" time="0.0" classname="com.summersoft.ctt.yycx.test.OperationManage">
+          <skipped />
+    </testcase>
+            <testcase name="driverManage" time="0.0" classname="com.summersoft.ctt.yycx.test.OperationManage">
+          <skipped />
+    </testcase>
+            <testcase name="addPlatformInfo" time="0.0" classname="com.summersoft.ctt.yycx.test.OperationManage">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

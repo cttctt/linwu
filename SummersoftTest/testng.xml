@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="username" value="chentt"/>
+    <parameter name="password" value="Ctt5477."/>
+    <parameter name="agent" value="兰陨代理5"/>
+    <parameter name="shortName" value="蓝韵企业5"/>
+    <parameter name="city" value="厦门市"/>
+    <parameter name="carType" value="专车"/>
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.summersoft.ctt.yycx.util.TestListener"/>
+    </listeners>
+    <test verbose="3" preserve-order="true" name="chromeTest">
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="com.summersoft.ctt.yycx.po.LoginPo">
+                <methods>
+                    <include name="userLogin"/>
+                </methods>
+            </class>
+
+
+            <!--<class name="com.summersoft.ctt.yycx.test.SystemSetting">-->
+            <!--<parameter name="province" value="福建省" />-->
+            <!--<methods>-->
+            <!--&lt;!&ndash;<include name="chuzucheSystemSet"></include>&ndash;&gt;-->
+            <!--<include name="scopeOfBusiness"></include>-->
+            <!--<include name="kuaicheSystemSet"></include>-->
+            <!--<include name="zhuancheSystemSet"></include>-->
+            <!--</methods>-->
+            <!--</class>-->
+
+            <!--<class name="com.summersoft.ctt.yycx.test.OperationManage">-->
+            <!--<parameter name="responsibleIdCard" value="350521199002076026" />-->
+            <!--<parameter name="phone" value="15969181192" />-->
+            <!--<methods>-->
+            <!--<include name="addPlatformInfo"></include>-->
+            <!--<include name="regionalManager"></include>-->
+            <!--<include name="businessManager"></include>-->
+            <!--<include name="vehicleManager"></include>-->
+            <!--<include name="driverManage"></include>-->
+            <!--<include name="driverMessage"></include>-->
+            <!--</methods>-->
+            <!--</class>-->
+
+
+
+
+            <!--<class name="com.summersoft.ctt.yycx.po.OperationManagerPo">-->
+            <!--<methods>-->
+            <!--<include name="addPlatformInfo"></include>-->
+            <!--<include name="regionalManager"></include>-->
+            <!--<include name="businessManager"></include>-->
+            <!--<include name="vehicleManager"></include>-->
+            <!--<include name="driverManager"></include>-->
+            <!--</methods>-->
+            <!--</class>-->
+
+
+            <!--<class name="com.summersoft.ctt.yycx.test.MarketingCenter">-->
+            <!--<parameter name="useCarType" value="2" />-->
+            <!--<parameter name="couponType" value="1" />-->
+            <!--<parameter name="money" value="5" />-->
+            <!--<parameter name="astrict" value="30" />-->
+            <!--<parameter name="freeMoney" value="4" />-->
+            <!--<methods>-->
+            <!--<include name="activity"></include>-->
+            <!--<include name="couponTemplateAdd"></include>-->
+            <!--<include name="couponTab"></include>-->
+            <!--<include name="passengerRecharge"></include>-->
+            <!--</methods>-->
+            <!--</class>-->
+
+            <class name="com.summersoft.ctt.yycx.po.CouponMarketingPo">
+                <methods>
+                    <include name="register"></include>
+                    <include name="passengerInvite"></include>
+                    <include name="driverInvite"></include>
+                    <include name="addCoupon"></include>
+                    <include name="addOneOffPayment"></include>
+                    <include name="commandAdd"></include>
+                </methods>
+            </class>
+
+            <!--<class name="com.summersoft.ctt.yycx.test.PassengerServiceCenter">-->
+            <!--<parameter name="title" value="test001"/>-->
+            <!--<parameter name="linkUrl" value="www.baidu.com" />-->
+            <!--&lt;!&ndash;乘客手机号信息&ndash;&gt;-->
+            <!--<parameter name="mobile" value="14200001234" />-->
+            <!--<parameter name="searchStarDate" value="2017-01-01" />-->
+            <!--<parameter name="remark" value="余额修改测试" />-->
+            <!--<methods>-->
+            <!--<include name="passengerInfomation"></include>-->
+            <!--<include name="passengerMessage"></include>-->
+            <!--</methods>-->
+            <!--</class>-->
+
+
+            <!--<class name="com.summersoft.ctt.yycx.test.OrderCenter">-->
+            <!--<methods>-->
+            <!--<include name="orderSearch"></include>-->
+            <!--<include name="passengerComplaint"></include>-->
+            <!--<include name="driverComplaint"></include>-->
+            <!--<include name="warningMessage"></include>-->
+            <!--</methods>-->
+            <!--</class>-->
+
+
+            <!--<class name="com.summersoft.ctt.yycx.test.InformationPublicCenter">-->
+            <!--&lt;!&ndash;反馈信息手机号&ndash;&gt;-->
+            <!--<parameter name="phone" value="14284764851" />-->
+            <!--<methods>-->
+            <!--<include name="feedbackSearch"></include>-->
+            <!--<include name="feedbackDeal"></include>-->
+            <!--<include name="articleAdd"></include>-->
+            <!--<include name="articleSearch"></include>-->
+            <!--<include name="articleUpdate"></include>-->
+            <!--</methods>-->
+            <!--</class>-->
+
+            <!--<class name="com.summersoft.ctt.yycx.test.FinancialCenter">-->
+            <!--<parameter name="mobile" value="14200000007" />-->
+            <!--<methods>-->
+            <!--<include name="statementOfAccount"></include>-->
+            <!--<include name="invoiceManage"></include>-->
+            <!--<include name="audit"></include>-->
+            <!--</methods>-->
+            <!--</class>-->
+
+
+
+            <!--<class name="com.summersoft.ctt.yycx.test.TestAll">-->
+            <!--<methods>-->
+            <!--<include name="clickMenu"></include>-->
+            <!--<exclude name="exportAll"></exclude>-->
+            <!--</methods>-->
+            <!--</class>-->
+
+        </classes>
+    </test>
+    <!--<test verbose="2" preserve-order="true" name="firefoxTest">-->
+    <!--<parameter name="browser" value="firefox" />-->
+    <!--<classes>-->
+    <!--<class name="com.summersoft.ctt.yycx.po.LoginPo">-->
+    <!--<methods>-->
+    <!--<include name="userLogin"/>-->
+    <!--</methods>-->
+    <!--</class>-->
+    <!--<class name="com.summersoft.ctt.yycx.test.TestAll">-->
+    <!--<methods>-->
+    <!--<include name="clickMenu"></include>-->
+    <!--<exclude name="exportAll"></exclude>-->
+    <!--</methods>-->
+    <!--</class>-->
+    <!--</classes>-->
+    <!--</test>-->
+</suite>

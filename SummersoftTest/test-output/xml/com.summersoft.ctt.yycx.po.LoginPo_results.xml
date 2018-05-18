@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="chromeTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.448">
+  <properties />
+  
+  
+            <testcase name="userLogin" time="16.448" classname="com.summersoft.ctt.yycx.po.LoginPo" />
+      
+</testsuite>

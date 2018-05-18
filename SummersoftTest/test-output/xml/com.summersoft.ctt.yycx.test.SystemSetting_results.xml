@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="E:/SummersoftTest"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="138.774">
+  <properties />
+  
+  
+            <testcase name="chuzucheSystemSet" time="35.446" classname="com.summersoft.ctt.yycx.test.SystemSetting" />
+                <testcase name="zhuancheSystemSet" time="68.005" classname="com.summersoft.ctt.yycx.test.SystemSetting" />
+                <testcase name="kuaicheSystemSet" time="35.323" classname="com.summersoft.ctt.yycx.test.SystemSetting" />
+      
+</testsuite>

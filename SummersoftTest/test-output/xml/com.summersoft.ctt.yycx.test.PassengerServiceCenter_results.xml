@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="E:/SummersoftTest"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="72.185">
+  <properties />
+  
+  
+            <testcase name="passengerInfomation" time="22.164" classname="com.summersoft.ctt.yycx.test.PassengerServiceCenter" />
+                <testcase name="passengerMessage" time="27.678" classname="com.summersoft.ctt.yycx.test.PassengerServiceCenter" />
+                <testcase name="passengerInfomation" time="22.343" classname="com.summersoft.ctt.yycx.test.PassengerServiceCenter" />
+      
+</testsuite>
